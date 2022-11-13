@@ -10,9 +10,8 @@
     <body>
 
     <form id="survey-form" action="{{ url_for('y_predict')}}" method="post">
-        <h1 id="title">Engine Failure Prediction</h1>
+        <h1 id="title"> Aircraft Engine Failure Prediction </h1>
         <fieldset id="content">
-            <legend>Please fill in your details to know whether the engine fails within 30 days</legend>
             <h1>{{prediction_text}}</h1>
             <div class="form-element">
                 <label >Enter your id:</label>
